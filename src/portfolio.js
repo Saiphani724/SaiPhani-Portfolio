@@ -26,11 +26,8 @@ const greeting = {
 	username: "Sai Phani",
 	title: "Hi all, I'm Sai Phani",
 	subTitles: [emoji(
-		"I am a Grad student from Stony Brook University, New York, pursuing my MS in computer science. \
-		I have previously worked at Microsoft as a Software Development Engineer, after completing my BTech in computer science from Amrita School of Engineering, Coimbatore, India."),
-		"I strive to gain experience in wide range of domains in \
-		Computer Science. I love to develop AI Systems that solves real-world problems and also I enjoy \
-		building sites and applications that look creative and work effictive. Here are some areas I am passionate about:"
+		"I am a Grad student from Stony Brook University, New York, pursuing my MS in computer science. I have previously worked at Microsoft as a Software Development Engineer, after completing my BTech in computer science from Amrita School of Engineering, Coimbatore, India."),
+		"I strive to gain experience in wide range of domains in Computer Science. I love to develop AI Systems that solves real-world problems and also I enjoy building sites and applications that look creative and work effictive. Here are some areas I am passionate about:"
 	],
 	areasOfInterest : [
 		emoji("⚡ Computer Vision"),

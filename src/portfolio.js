@@ -293,10 +293,11 @@ const workExperiences = {
 			company: "Microsoft",
 			companylogo: require("./assets/images/microsoftLogo.png"),
 			date: "July 2021 – August 2022",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			desc: "",
 			descBullets: [
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+				"Built a chatbot called “AutoOps Bot”, which allows the users to complete mundane tasks like managing Azure services effortlessly via Teams app, which saves around 40 hours/month of team effort.",
+				"Automated data Inbounding and Outbounding process from Workday to Microsoft’s SQL Db, and vice versa.",
+				"Designed, developed and maintained tools for Microsoft’s finance forecasting and budgeting management."
 			]
 		},
 		{

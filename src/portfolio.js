@@ -225,7 +225,7 @@ const educationInfo = {
 		},
 		{
 			schoolName: "Amrita University, Coimbatore",
-			logo: require("./assets/images/amritaLogo.jpeg"),
+			logo: require("./assets/images/amritaLogo.png"),
 			subHeader: "Bachelor of Technology in Computer Science and Engineering",
 			duration: "July 2017 - June 2021",
 			desc: "GPA: 9.1/10 with Distinction",

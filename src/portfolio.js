@@ -7,6 +7,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // import codingPerson from "./assets/lottie/codingPerson";
 import robot from "./assets/lottie/robot";
 import fullstack from "./assets/lottie/fullstack";
+import cloudinfra from "./assets/lottie/cloudinfra";
 
 // Splash Screen
 
@@ -97,6 +98,10 @@ const skillsSection = {
 					fontAwesomeClassname: "logos:pytorch-icon"
 				},
 				{
+					skillName: "PytorchLightning",
+					fontAwesomeClassname: "simple-icons:pytorchlightning"
+				},
+				{
 					skillName: "Sklearn",
 					fontAwesomeClassname: "simple-icons:scikit-learn"
 				},
@@ -107,11 +112,6 @@ const skillsSection = {
 				{
 					skillName: "Matplotlib",
 					fontAwesomeClassname: "logos:matplotlib"
-				},
-				
-				{
-					skillName: "PytorchLightning",
-					fontAwesomeClassname: "simple-icons:pytorchlightning"
 				},
 				{
 					skillName: "Opencv",
@@ -175,6 +175,10 @@ const skillsSection = {
 					fontAwesomeClassname: "logos:nodejs"
 				},
 				{
+					skillName: "TypeScript",
+					fontAwesomeClassname: "vscode-icons:file-type-typescript-official"
+				},
+				{
 					skillName: "Java",
 					fontAwesomeClassname: "logos:java"
 				},
@@ -183,8 +187,8 @@ const skillsSection = {
 					fontAwesomeClassname: "ic:baseline-android"
 				},
 				{
-					skillName: "TypeScript",
-					fontAwesomeClassname: "vscode-icons:file-type-typescript-official"
+					skillName: "Django",
+					fontAwesomeClassname: "vscode-icons:file-type-django"
 				},
 				{
 					skillName: "MySQL",
@@ -195,14 +199,66 @@ const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-firebase"
 				},
 				{
-					skillName: "Flask",
-					fontAwesomeClassname: "fab fa-python"
-				},
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django"
+					skillName: "MongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-mongo"
 				}
+				
 			],
+			display: true // Set false to hide this section, defaults to true
+		},
+		{
+			title: "Cloud Infra-Architecture",
+			animation: cloudinfra,
+			subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+			skills: [
+				emoji("⚡ Experience of working on multiple cloud platforms, i.e., Azure, AWS, GCP."),
+				emoji("⚡ Working on PAAS Applications which invloves data processing and orchestration in cloud using pipelines and backend flow."),
+				emoji(
+					"⚡ Hosting and maintaining websites and applications on virtual machine instances along with integration of databases."
+				),
+				emoji(
+					"⚡ Building CI/CD pipelines for automated testing & deployment using Microsoft's Azure DevOps and Github Actions."
+				)
+			],
+
+			/* Make Sure to include correct Font Awesome Classname to view your icon
+		  https://fontawesome.com/icons?d=gallery */
+		  softwareSkills: [
+			// ? Check README To get icon details
+			{
+				skillName: "AWS",
+				fontAwesomeClassname: "logos:aws",
+			},
+			{
+				skillName: "Azure",
+				fontAwesomeClassname: "logos:microsoft-azure",
+			},
+			{
+				skillName: "GCP",
+				fontAwesomeClassname: "logos:google-cloud",
+			},
+			{
+				skillName: "Heroku",
+				fontAwesomeClassname: "logos:heroku-icon",
+			},
+			{
+				skillName: "Github",
+				fontAwesomeClassname: "akar-icons:github-fill",
+			},
+			{
+				skillName: "Docker",
+				fontAwesomeClassname: "logos:docker-icon",
+			},
+			{
+				skillName: "Github Actions",
+				fontAwesomeClassname: "logos:github-actions",
+			},
+			{
+				skillName: "Azure DevOps",
+				fontAwesomeClassname: "cib:azure-devops",
+			}
+		],
+			
 			display: true // Set false to hide this section, defaults to true
 		}
 	]

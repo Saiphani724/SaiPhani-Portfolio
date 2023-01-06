@@ -46,12 +46,12 @@ export default function Greeting() {
                 {greeting.subTitles[1]}
               </p>
 			  <table style={{marginBottom: "40px"}}>
-				<tr class = "dark-mode greeting-text-p">
+				<tr class = "greeting-text-p">
 					<td style={{ textAlign: "left", paddingRight: "30px", paddingBottom: "20px" }}>{greeting.areasOfInterest[0]}</td>
 					<td style={{ textAlign: "left", paddingRight: "30px", paddingBottom: "20px"  }}>{greeting.areasOfInterest[1]}</td>
 					<td style={{ textAlign: "left", paddingRight: "30px", paddingBottom: "20px"  }}>{greeting.areasOfInterest[2]}</td>
 				</tr>
-				<tr class = "dark-mode greeting-text-p">
+				<tr class = "greeting-text-p">
 					<td style={{ textAlign: "left", paddingRight: "30px"  }}>{greeting.areasOfInterest[3]}</td>
 					<td style={{ textAlign: "left", paddingRight: "30px"  }}>{greeting.areasOfInterest[4]}</td>
 					<td style={{ textAlign: "left", paddingRight: "30px"  }}>{greeting.areasOfInterest[5]}</td>

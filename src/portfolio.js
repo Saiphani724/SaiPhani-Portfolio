@@ -26,7 +26,7 @@ const greeting = {
 	username: "Sai Phani",
 	title: "Hi all, I'm Sai Phani",
 	subTitles: [emoji(
-		"I am a Grad student from Stony Brook University, New York, pursuing my MS in computer science. I have previously worked at Microsoft as a Software Development Engineer, after completing my BTech in computer science from Amrita School of Engineering, Coimbatore, India."),
+		"I am a Grad student from Stony Brook University, New York, pursuing my MS in Computer Science. I have previously worked at Microsoft as a Software Development Engineer, after completing my BTech in Computer Science from Amrita School of Engineering, Coimbatore, India."),
 		"I strive to gain experience in wide range of domains in Computer Science. I love to develop AI Systems that solves real-world problems and also I enjoy building sites and applications that look creative and work effictive. Here are some areas I am passionate about:"
 	],
 	areasOfInterest : [
@@ -69,14 +69,14 @@ const skillsSection = {
 		{
 			title: "AI / Machine Learning",
 			animation: robot,
-			subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+			subTitle: "LAZY AI ENTHUSIST FINDING WAYS TO AUTOMATE EVERY STEP IN DAILY LIFE.",
 			skills: [
 				emoji(
-					"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+					"⚡ Build Vision Models that can look around and understand the world to do required task."
 				),
-				emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+				emoji("⚡ Build Language Models that can infer the context and respond mimicing humans and sometimes better."),
 				emoji(
-					"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+					"⚡ Build Robots / AI Agents that can learn from its mistakes and get better day to day."
 				)
 			],
 
@@ -85,52 +85,52 @@ const skillsSection = {
 
 			softwareSkills: [
 				{
-					skillName: "css3",
+					skillName: "Python",
 					fontAwesomeClassname: "vscode-icons:file-type-python"
 				},
 				{
-					skillName: "tensorflow",
+					skillName: "TensorFlow",
 					fontAwesomeClassname: "logos:tensorflow"
 				},
 				{
-					skillName: "swift",
+					skillName: "Pytorch",
 					fontAwesomeClassname: "logos:pytorch-icon"
 				},
 				{
-					skillName: "JavaScript",
+					skillName: "Sklearn",
 					fontAwesomeClassname: "simple-icons:scikit-learn"
 				},
 				{
-					skillName: "reactjs",
+					skillName: "Scipy",
 					fontAwesomeClassname: "simple-icons:scipy"
 				},
 				{
-					skillName: "nodejs",
+					skillName: "Matplotlib",
 					fontAwesomeClassname: "logos:matplotlib"
 				},
 				
 				{
-					skillName: "npm",
+					skillName: "PytorchLightning",
 					fontAwesomeClassname: "simple-icons:pytorchlightning"
 				},
 				{
-					skillName: "sql-database",
+					skillName: "Opencv",
 					fontAwesomeClassname: "logos:opencv"
 				},
 				{
-					skillName: "aws",
+					skillName: "Pandas",
 					fontAwesomeClassname: "simple-icons:pandas"
 				},
 				{
-					skillName: "firebase",
+					skillName: "Numpy",
 					fontAwesomeClassname: "vscode-icons:file-type-numpy"
 				},
 				{
-					skillName: "python",
+					skillName: "Matlab",
 					fontAwesomeClassname: "vscode-icons:file-type-matlab"
 				},
 				{
-					skillName: "docker",
+					skillName: "Spacy",
 					fontAwesomeClassname: "simple-icons:spacy"
 				}
 			],
@@ -146,7 +146,7 @@ const skillsSection = {
 				),
 				emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
 				emoji(
-					"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+					"⚡ Integration of third party services such as Firebase / Azure / AWS / Digital Ocean"
 				)
 			],
 
@@ -156,55 +156,51 @@ const skillsSection = {
 			softwareSkills: [
 				{
 					skillName: "html-5",
-					fontAwesomeClassname: "fab fa-html5"
+					fontAwesomeClassname: "vscode-icons:file-type-html"
 				},
 				{
-					skillName: "css3",
-					fontAwesomeClassname: "fab fa-css3-alt"
-				},
-				{
-					skillName: "sass",
-					fontAwesomeClassname: "logos:pytorch"
+					skillName: "CSS",
+					fontAwesomeClassname: "vscode-icons:file-type-css"
 				},
 				{
 					skillName: "JavaScript",
-					fontAwesomeClassname: "fab fa-js"
+					fontAwesomeClassname: "logos:javascript"
 				},
 				{
-					skillName: "reactjs",
-					fontAwesomeClassname: "fab fa-react"
+					skillName: "ReactJs",
+					fontAwesomeClassname: "logos:react"
 				},
 				{
 					skillName: "nodejs",
-					fontAwesomeClassname: "fab fa-node"
+					fontAwesomeClassname: "logos:nodejs"
 				},
 				{
-					skillName: "swift",
-					fontAwesomeClassname: "fab fa-swift"
+					skillName: "Java",
+					fontAwesomeClassname: "logos:java"
 				},
 				{
-					skillName: "npm",
-					fontAwesomeClassname: "fab fa-npm"
+					skillName: "Android",
+					fontAwesomeClassname: "ic:baseline-android"
 				},
 				{
-					skillName: "sql-database",
-					fontAwesomeClassname: "fas fa-database"
+					skillName: "TypeScript",
+					fontAwesomeClassname: "vscode-icons:file-type-typescript-official"
 				},
 				{
-					skillName: "aws",
-					fontAwesomeClassname: "fab fa-aws"
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql"
 				},
 				{
-					skillName: "firebase",
-					fontAwesomeClassname: "fas fa-fire"
+					skillName: "Firebase",
+					fontAwesomeClassname: "vscode-icons:file-type-firebase"
 				},
 				{
-					skillName: "python",
+					skillName: "Flask",
 					fontAwesomeClassname: "fab fa-python"
 				},
 				{
-					skillName: "docker",
-					fontAwesomeClassname: "fab fa-docker"
+					skillName: "Django",
+					fontAwesomeClassname: "vscode-icons:file-type-django"
 				}
 			],
 			display: true // Set false to hide this section, defaults to true
@@ -245,38 +241,42 @@ const techStack = {
 	experience: [
 		{
 			Stack: "Frontend/Design", //Insert stack or technology you have experience in
-			progressPercentage: "90%" //Insert relative proficiency in percentage
+			progressPercentage: "80%" //Insert relative proficiency in percentage
 		},
 		{
 			Stack: "Backend",
+			progressPercentage: "80%"
+		},
+		{
+			Stack: "Competitive Programming",
+			progressPercentage: "90%"
+		},
+		{
+			Stack: "Computer Vision", //Insert stack or technology you have experience in
+			progressPercentage: "80%" //Insert relative proficiency in percentage
+		},
+		{
+			Stack: "Natural Language Processing",
+			progressPercentage: "80%"
+		},
+		{
+			Stack: "Data Analysis and Processing",
+			progressPercentage: "90%"
+		},
+		{
+			Stack: "Robotics", //Insert stack or technology you have experience in
+			progressPercentage: "80%" //Insert relative proficiency in percentage
+		},
+		{
+			Stack: "Android",
 			progressPercentage: "70%"
 		},
 		{
-			Stack: "Programming",
-			progressPercentage: "60%"
-		},
-		{
-			Stack: "Frontend/Design", //Insert stack or technology you have experience in
-			progressPercentage: "90%" //Insert relative proficiency in percentage
-		},
-		{
-			Stack: "Backend",
+			Stack: "Internet of Things",
 			progressPercentage: "70%"
 		},
 		{
-			Stack: "Programming",
-			progressPercentage: "60%"
-		},
-		{
-			Stack: "Frontend/Design", //Insert stack or technology you have experience in
-			progressPercentage: "90%" //Insert relative proficiency in percentage
-		},
-		{
-			Stack: "Backend",
-			progressPercentage: "70%"
-		},
-		{
-			Stack: "Programming",
+			Stack: "Reinforcement Learning",
 			progressPercentage: "60%"
 		}
 	],
@@ -305,14 +305,14 @@ const workExperiences = {
 			company: "Microsoft",
 			companylogo: require("./assets/images/microsoftLogo.png"),
 			date: "Jan 2021 – June 2021",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			descBullets: ["Designed and implemented Reuse Dictionary project - a ReactJs, .NET based tool for sharing any reusable work done within Microsoft organization and also allows searching for works published across multiple sites like GitHub, nugget repository, Azure DevOps, etc., from a single place."]			
 		},
 		{
 			role: "Software Engineer",
 			company: "Microsoft",
 			companylogo: require("./assets/images/microsoftLogo.png"),
 			date: "May 2020 – July 2020",
-			desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+			descBullets: [ "Built Feedback Engine (on Microsoft’s Procurement Website), a tool that extracts user activity data as feedback using Azure Application Insights and improves the search results based on users’ actions."]
 		},
 		// {
 		// 	role: "Software Engineer",
@@ -337,33 +337,33 @@ const openSource = {
 
 const bigProjects = {
 	title: "Projects",
-	subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+	subtitle: "FEW OF MY LATEST PROJECTS I AM EXCITED TO SHOWCASE.",
 	projects: [
 		{
-			image: require("./assets/images/saayaHealthLogo.webp"),
-			projectName: "Saayahealth",
-			projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			image: require("./assets/images/shadowremoval.png"),
+			projectName: "Shadow Removal using Diffusion",
+			projectDesc: " A deep learning model that removes the shadow in an image and restores the image contents using Diffusion technique.",
 			footerLink: [
 				{
-					name: "Visit Website",
-					url: "http://saayahealth.com/"
+					name: "GitHub",
+					url: "https://github.com/Saiphani724/shadow-removal-diffusion"
 				}
 				//  you can add extra buttons here.
 			]
 		},
 		{
-			image: require("./assets/images/nextuLogo.webp"),
-			projectName: "Nextu",
-			projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			image: require("./assets/images/stateinference.png"),
+			projectName: "PASTA Inference Classification",
+			projectDesc: "A model to classify if the given inference statement is warranted by the given story. Models are trained to understand the world state for the given story to predict whether the world state is consistent with the inference statement.",
 			footerLink: [
 				{
-					name: "Visit Website",
-					url: "http://nextu.se/"
+					name: "GitHub",
+					url: "https://github.com/Saiphani724/pasta-inference-classification"
 				}
 			]
 		}
 	],
-	display: false // Set false to hide this section, defaults to true
+	display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
